@@ -1,0 +1,108 @@
+ext {
+    androidVersions = [
+            minSdkVersion    : 28,
+            targetSdkVersion : 34,
+            compileSdkVersion: 34,
+            buildToolsVersion: '31.0.0'
+    ]
+
+    version = [
+            supportLib            : '27.1.1',
+            constraintLayout      : '1.1.0',
+            glide                 : '4.13.0',
+            retorfit              : '2.9.0',
+            okhttp3               : '4.10.0',
+            google                : '17.0.0',
+            facebook              : '4.37.0',
+            gson                  : '2.8.5',
+            pageindicator         : 'v.1.0.3',
+            colorpicker           : '0.0.13',
+            timber                : '4.7.1',
+            easypermissions       : '3.0.0',
+            afollestadDialogs     : '0.9.6.0',
+            afollestadRecyclerview: '0.5.0',
+            jsoup                 : '1.11.3',
+            lost                  : '3.0.4',
+            materialdatetimepicker: '3.6.4',
+            sectioned             : '2.1.1',
+            tooltip               : '0.2.0',
+            mpchart               : 'v3.1.0',
+            facebookStetho        : '1.5.0',
+            realmStetho           : '2.1.0',
+            imageCropper          : '2.8.0',
+            firebaseCore          : '16.0.3',
+            firebaseMessaging     : '17.3.0',
+            imageSlider           : '1.1',
+
+
+
+            kotlin                : "1.7.10",
+            ktxCoroutine          : "1.7.1",
+            ktxCore               : "1.6.0",
+    ]
+
+    pluginVersion = [
+            gradle: '7.1.1',
+            realm : '10.13.0'
+    ]
+
+    deps = ext {
+        kotlin = [
+                //std kotlin compiler
+                kotlinStdLib       : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${version.kotlin}",
+                ktxCoroutineAndroid: "org.jetbrains.kotlinx:kotlinx-coroutines-android:${version.ktxCoroutine}",
+                ktxCoroutineCore   : "org.jetbrains.kotlinx:kotlinx-coroutines-core:${version.ktxCoroutine}",
+        ]
+        androidCrypto = [
+
+                securityCrypto: "androidx.security:security-crypto:1.1.0-alpha03"
+
+
+        ]
+    }
+
+
+    dependency = [
+            supportV4              : 'androidx.legacy:legacy-support-v4:1.0.0',
+            supportAppcompatV7     : 'androidx.appcompat:appcompat:1.2.0',
+            supportDesign          : 'com.google.android.material:material:1.2.0',
+            supportConstraintLayout: 'androidx.constraintlayout:constraintlayout:1.1.3',
+            glide                  : "com.github.bumptech.glide:glide:${version.glide}",
+            glideAnnotation        : "com.github.bumptech.glide:compiler:${version.glide}",
+            gson                   : "com.google.code.gson:gson:${version.gson}",
+            retrofit               : "com.squareup.retrofit2:retrofit:${version.retorfit}",
+            retrofitconverter      : "com.squareup.retrofit2:converter-gson:${version.retorfit}",
+            okhttp3                : "com.squareup.okhttp3:logging-interceptor:${version.okhttp3}",
+            okhttp3urlconnection   : "com.squareup.okhttp3:okhttp-urlconnection:${version.okhttp3}",
+            okhttp3main            : "com.squareup.okhttp3:okhttp:${version.okhttp3}",
+            googleLocation         : "com.google.android.gms:play-services-location:21.0.1",
+            facebook               : "com.facebook.android:facebook-android-sdk:${version.facebook}",
+            googleService          : "com.google.android.gms:play-services-auth:17.0.0",
+            pageindicator          : "com.github.romandanylyk:PageIndicatorView:${version.pageindicator}",
+            colorpicker            : "com.github.QuadFlask:colorpicker:${version.colorpicker}",
+            timber                 : "com.jakewharton.timber:timber:${version.timber}",
+            easypermissions        : "pub.devrel:easypermissions:${version.easypermissions}",
+            afollestadDialogs      : "com.afollestad.material-dialogs:core:${version.afollestadDialogs}",
+            afollestadRecyclerview : "com.afollestad:sectioned-recyclerview:${version.afollestadRecyclerview}",
+            scalars                : "com.squareup.retrofit2:converter-scalars:${version.retorfit}",
+            jsoup                  : "org.jsoup:jsoup:${version.jsoup}",
+            lost                   : "com.mapzen.android:lost:${version.lost}",
+            materialdatetimepicker : "com.wdullaer:materialdatetimepicker:${version.materialdatetimepicker}",
+            sectioned              : "com.github.IntruderShanky:Sectioned-RecyclerView:${version.sectioned}",
+            tooltip                : "com.github.vihtarb:tooltip:${version.tooltip}",
+            mpchart                : "com.github.PhilJay:MPAndroidChart:${version.mpchart}",
+//            facebookStetho         : "com.facebook.stetho:stetho:${version.facebookStetho}",
+            realmStetho            : "com.uphyca:stetho_realm:${version.realmStetho}",
+            viewPager2             : "androidx.viewpager2:viewpager2:1.0.0",
+            imageSlider            : "com.shivam.library:imageslider:${version.imageSlider}@aar",
+            conscrypt              : "org.conscrypt:conscrypt-android:2.5.2",
+            googleAppSet           : "com.google.android.gms:play-services-appset:16.0.2"
+    ]
+
+    pluginDependencies = [
+            gradle: "com.android.tools.build:gradle:${pluginVersion.gradle}",
+            realm : "io.realm:realm-gradle-plugin:${pluginVersion.realm}",
+            kotlinGradlePlugin: "org.jetbrains.kotlin:kotlin-gradle-plugin:${version.kotlin_version}"
+            /*,fabric: "io.fabric.tools:gradle:${pluginVersion.fabric}"*/
+    ]
+}

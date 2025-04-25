@@ -1,0 +1,118 @@
+buildscript {
+    apply from: "${rootDir}/gradle/dependencies.gradle"
+    apply from: "${rootDir}/gradle/here-maps-keys.gradle"
+    ext.kotlin_version = '1.7.10'
+    ext {
+        compose_version = '1.3.1'
+    }
+    repositories {
+        google()
+        mavenCentral()
+//        jcenter() {
+//            content {
+//                includeModule("io.github.vejei.cupertinoswitch", "cupertinoswitch")
+//                includeModule("com.dlazaro66.qrcodereaderview", "qrcodereaderview")
+//            }
+//        }
+        maven { url "https://plugins.gradle.org/m2/" }
+        maven {
+            url 'https://oss.sonatype.org/content/repositories/snapshots/'
+        }
+        maven { url 'https://jitpack.io' }
+        maven { url = uri("https://github.com/uPhyca/stetho-realm/raw/master/maven-repo") }
+//        flatDir {
+//            dirs("libs")
+//        }
+    }
+
+    dependencies {
+        classpath pluginDependencies.gradle
+        classpath 'com.google.gms:google-services:4.3.15'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.8.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10"
+        classpath "com.google.dagger:hilt-android-gradle-plugin:2.44"
+        classpath 'com.appdynamics:appdynamics-gradle-plugin:22.+'
+        classpath 'org.jetbrains.dokka:dokka-gradle-plugin:1.6.0'
+        classpath pluginDependencies.realm
+        classpath 'com.android.tools.build:gradle'
+        classpath 'io.gitlab.arturbosch.detekt:detekt-gradle-plugin:1.18.1'
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.3.5"
+        classpath 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin:secrets-gradle-plugin:2.0.1'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+
+        maven { url "https://plugins.gradle.org/m2/" }
+        maven { url "https://www.jitpack.io" }
+        maven {
+            url 'https://maven.mappls.com/repository/mappls/'
+        }
+
+        configurations.all {
+            resolutionStrategy {
+                force "com.google.android.gms:play-services-location:21.0.1"
+            }
+        }
+//        jcenter()
+    }
+    // Excluded "com.google.android.gms" as it will conflict classes from "com.google.navigation.libraries"
+    configurations {
+        implementation {
+            exclude group: 'com.google.android.gms', module: 'play-services-maps'
+        }
+        implementation {
+            exclude group: "com.polidea.rxandroidble2", module: "dagger-library-shadow"
+        }
+    }
+}
+
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+subprojects {
+    apply from: "${rootDir}/gradle/dependencies.gradle"
+
+
+    // added to improve debug build time
+    afterEvaluate { project ->
+        if (project.hasProperty("android")) {
+            android {
+
+                if (project.hasProperty("devBuild")) {
+                    splits.abi.enable = false
+                    splits.density.enable = false
+                    apptOptions.cruncherEnabled = false
+
+                    // use only single locale and density to avoid compiler to build others.
+                    resConfig("en", "xxhdpi")
+                }
+
+                buildTypes {
+                    debug {
+                        minifyEnabled false
+                        ext.enableCrashlytics = false
+                        ext.alwaysUpdateBuildId = false
+                    }
+
+                }
+
+                compileOptions {
+                    sourceCompatibility JavaVersion.VERSION_1_8
+                    targetCompatibility JavaVersion.VERSION_1_8
+                }
+
+            }
+
+
+        }
+    }
+}
+
+
+
+

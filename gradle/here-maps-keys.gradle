@@ -1,0 +1,48 @@
+ext {
+    sea = [
+            app_id              : 'OyJMUz4r0WNPBck0zlQd',
+            app_token           : 'yemJQryXF6eL0ZVGkNwjyg',
+            app_license_key     : 'FycXMHe/JFctEx6V1Hk3M0Iv77dRfrQx9bF3V79bKGnP/yurkDKhEI88laNabdHVSSSnSwRSUwWvNdhdz8XgVIC0nxICq+Nyh+eX9NYJfsoi7QJeIo+sRUzGEl8CzP8q6IVOA0tBhxZoHblcSQA5nbVSOD8AxF9WXPdCP5WK93NXaWCsHXSVKFwSYIi16ARNPMheopGoZRF7P/NOD6XEw5Zq7hk137zTv4bFX6I105wYhLceQD2oBdEIwUDKeMbEQnUNCKtLAeLYxWV6ZTjUWeOnUL/eOjAIRvo5JWAAFk35rKb7l/XtmyAqqEHZX35lZWVAamo8GTygbW0tT22gYzwjNOqqgobZSJpNbtJXbOo5dK+w7ST1uzzZZIJsKwzaphbHN8Cndx9d2jvY7Gg8xH/pTn6e6Qvcng34aLubKNb6urtkxIBx8LWkd8P4h1t2AwRIjqs9WXB2m++mH0s/LID7OAjUfVRb/986/LV5twgxYoePp/aT7hCCvX1qIgo8vjhy8q96ADjgdTiaTiwULCdXJ/PKNW8X8wo1BhpNXtVCMdXzpSzFSM4qI/ANi/I5AHJu+lluIlcMxdunIzH8eUKtGcSQbUgETVdSCdGwY1zoPpc57TlsrkDs+GbScaAzRV6ChhAyQyEhYYr909E/AkURGQvERjEmrj9YuVuwli8=',
+    ]
+
+    latam = [
+            app_id  : '8udo7u3USlzAEn0y0Lyc',
+            app_token : 'QuEek32zwEiprkh1It1vQA',
+            app_license_key : 'POTG86iACbN5MwvBIJSYpU1tB9PX7unjFyWMvi9/VzIZYGD0XBMDx45uERvjzPzZ1BPcNvH1/I/s0WeuLuC51RVIbPyN0MkSWedWa4E1s2ElrrT4vCcuiKpI9Zf2mTninHu6Gw+k1gnxzHPcHhjU6ONLHc+TtG/9MEE9h62CcV2aOg/N6+6gCuclA997txbUIQj0y5uA9qy1ubYR4qb05uTrBRlKIW0pwMtKPnHQTMhMlNTpW1V3yYZlM21h0N0R6A3DeOp96yhYWwJ14W1/cJbj45O5N+ECules6oee+Rhk7u2riXW7bYTNvPLgCbyW9tf8YfzH5Qz1d8osWbuNpy7QwimJfq6ivVx/WFqIevvdTyhSs9bNWMvgSnvoRSgWGXnK3+sEz87wxAgb7UV7q5AR5QXDK1tjfhgXjI2mfibwbIW3PtMvRgq3kBhzMF1c0NTApILB2ysCU7jvWaZ91FwKAydzwBQozahmittA1BMVs7jnWO+kKmWsjm3u5xdibs8M8PkatVIJ6/s/tl711Yv9gGnZDugd1+3t87VM4SmQHHQFUqEdLFfByG9mYTkib3dj/fxmfbMHMirCZJt0wEJs1twUKstpqWeRjbUTIUmY9B+gmIF7u4m/UqiD/Nff051pAAqGoYK38rdERUx4/r8KIAhTHGaT+wPFQzyNPNw='
+    ]
+
+    middleEast = [
+            app_id : 'N1degefglaYAd9dfxZNf',
+            app_token : '9ktmJTudpTXz4sOy_c9hiA',
+            app_license_key: 'eprJ4hbcVFhLbngRc8Pi1ey/4Q/8HUDr+3XJc+pHr8I7ylRA5MFJYELE1+24BEsRBtIBWnQ63nxinriTV/w0vqjSH4BK4zNFx7v5LdXl1W5TsVYJMOAXsq3np8wsQuCn+OzbMwodXdnlGQXsqfZGMnAS0luyPx+d6K7vq/HSFXAqNFPUQ70mL7Y4dHDFaNG0j4IZnGFqnKTOMJEq/Iqc1vgtkMCs4ywvXZFuyXfwxJr3zYiBUK9lR//D/QezsL+/1NODKiQTWNhXY2v7ZdBJlrSAad9NhY8AZQNAdfcv980UN4meJ9W1wOY4ZGhIpZwm6/fU8JyM8xKeYotqFSgIaR6jF/2jopl9J7eSdPCs8wY3h4vlJc2PI3TGqAxqCeBBe+3KsbQQr6ENIyVA78etVxZLUuzBPK6MPX9gWpQQEZyaIHtJhv6UHHfKztel1E4goa3UqoQfVun9R7XRmncX6CCdrr4EobtkwqVI/MSiHslkG6ciXygR035B+5qJ3kd9yX0YnMRw0S41UxI+0gWc/XLAMysyASq3dG5/j0o02n6AGHApEt1/eEyNYSV0eLi9TrzrS9YhaqI+PPd8WSgBSJgoXI3Of4I9f4ZTq4ACLVFQuSs1aYtyzj7JT1nt3sn3kV6zoe6Iz3nwIrQLsBTDZfRgb+fYKR+ahJvhji+5v6M='
+    ]
+
+    africa = [
+            app_id : 'RvjBQuuhKuEDA7iH4aWn',
+            app_token : 'q46y4BDvNvhJdyqThCvM9A',
+            app_license_key: 'AocDS78/cy7Fxtoo6uZ2PCdZsX7//+4ThZFa52mI8FVLnQA6XJIOw21pruAfPTNpeHZp7XSQFZHZ0sYliKgtWG1P8KZ+QlD4/F2iOo34kHtY6CH1eUTV6jNDCac8FDkQQ1oDy2ekndIyxZ491MpWSs6QnpRPQVOs0Nn8RR7iG/AiOXmc3CDhb7zWYNKgzMJlEmCeDjeId/sLdI403lddImUnyePBKnf+GTwZptP3Cg79t54avdom/WjwBmhrIqkI7I1wv+2sJXO1ZX22Cg9/H/QZ35H74ezq62FnQOHTT3+fQME+s5NEP4+zaPmaLiCaSZfcuWtdmoeKnOfUDIkmaaNaopAUsnR3cJQ9q847lKE5pXJqIjjuN8oLD5pR5J/a6JBTFiulOXwR3enkEppq0b9Y/t9tYG0kRzgToueGyqRBz4WjA3tNG2x2Fkr4IdJ9e1QYn5y8ZP09xoV3zT3+FFbqxJsSiVY6ntwytRvDWR0PgxH77HIJ4htj68xvjHXuE0nZv5vfqgecRKRmUT+lCZmrmLtAJYgq7WQzPr+7DdoBf7nryasmK5q1p2c1k6i6Ra6/ZtdKwEHtqdZgZsMqoqsU5fgrJwQG//ipaskngIBC334CRgmmSwWApPc6O9++p1gDNPKXv0d4JRaPscAYp5BCg+tZGdbReXGebBaaX6o='
+    ]
+
+    bangladesh = [
+            app_id: 'XY1ly36gFeYRgjTBjQGa',
+            app_token: 'YlRJFyJUkO08fS9CdFCESg',
+            app_license_key: 'hn8ZycO6CbOQL89z6RrnlyVQNgVWizR5BvMgndxXqK/WaligG9eTu2he+SrMJlBMSkF7bhXhxtnI0MQEGqTKPnrWTBxHhDcARuUUmu1HhcZ01r3YmE4IEx9cUgEF7BiBPnqQlb3AV2W2z6IjWckCOZ6qa+csPPLwiFVhA2eCeXXMjSgtw8V5haIZQ92RY+ff1vdW4h8qZaPLbPGbatea9Cb+Ii6rBc7mz6ZoARqbNQniOYwWf/r5X7OjljC2hsXcF6slLjvU8AkK9Ipr4mZRLupbriTMlSpJ+aWVTPK/cC7KwC5bY7rt5yTxgSlC7mVqYCkefM93rMAPFV42SDc6C0qAfIKs3xIkGp+Wn/1HbRaq+u+xWgOi2SqrAEM9Li0HgfhI3Zvouk6/42RYPklAvpTs0yMUinbVxPsGHeEyW/WL7jvUhf3Sbd8pbumV77JCHWrWvlvPrOlDQDEx75zKbE0TTuZ4x3eAKULl9TgyDZN8n8Qqn1LAvIWPnFewBxpTpDQQsvbVhmDtA/MVFN4PSXccTNvvddm3GiKpDMzEB5Sjb/2JzJpUsCqlx7paqmLjV/zvz1M8fPgauBwPNhGGlZ3LlMaOaKxqt2vsOrQa9dTUOS1Rvnhlo8Sysa3In/x8bxatvOkiZR6CaFjc9dacEPgT0iAiCOY5oWNqIFmQMV8='
+    ]
+
+    srilanka = [
+            app_id: '6STW7nUz0EXnYvIHJyCU',
+            app_token: 'hbTYcTEIgNdrjFCtsYXnNA',
+            app_license_key: 'NdaV/vY/yXC4DEyxCs4gQaK6UNIzrnYVagzOe3v7bT4eY3p2NjAonTqR8Go4f3fH7Yf+8tGvYYXOSatbTedu3g2FsKp10ryj5rrU1mzxUUmoTXyDZw8mRwwJwHhK93wqaGtzvkdEyos1yZzpjDt8CKi+xVNPOmt+n+Sd16+/ARBtbsgnx+4ATJ1ywE/PGPL/g1T1hfn2JVpvBdZGiyv83uUpXOR5FI8N+UjZnfJp33JbEn9Vj1VPBUlgzcglcIo1fwORWexpfwAeeQbF/ofSmT7UxhvAQvlhKWN1Dg8+J4VG8QKNWdryrESLb0UUQ1Fjsv/RXolCA8iUoqalTQV2QiAjqfmxCbziXUw3hJzDhmRszLMIiUjKA81UCDfg+mW4W14kxxZ7U551L9MDNwR4ewY0Na+AoYF2o12yWEK0gbGSo6ioVvgCl1CWxjWBs5HMqSFEPlGeZBQ6wa3iAFU5fDdkLLxgXuirIo5qUU+12J1XFjMkDRgVR+33ft25xoMGa6lje0UTj6Q2L44i9Z7aKX1gs/syNSkRkxn/AWH8UYMggWwr2OppiNj464NnpMSriCE6r4z3oyALMX7n/oMKDLnYM2p6zP7dte2jaLUTqh6bSjqnJbQEwHMGNjVr6uuaDPqIAohwc+zlvmEOKKcAdobn8wRnByakRNKRzZahNTg='
+    ]
+    nepal = [
+            app_id: 'vpiKwDfj5odvYAOQDZuK',
+            app_token: '7jI26e2kvPoxCnXRlwwr2Q',
+            app_license_key: 'GtflH2L4vc/M+6C4GAHMSY7moz53YzEQNZVu2G1cvJiIy2b7WYoXjbxTj4NkruwkSVpdOjA/sastlvgogVaO7VCNM8/9RtF8oqJ3i6Aehp0c6l6TRmT42V9rGtLLJqKY2mF+rKYrqMg9v+hgyOgg1k281h5U97n3+EbEENEOQFG0DlokCZwfRyFSJWu/zUP+lJdK9vMRhZs+URXMQJvcDAV0jFDUatpahsmpRfvZW44lkjXyFyeZSrM/RE/eo/p1vXpQd7i3UJt3mlLQIV+9nYF+/iGfwuxV3ht4zIf+gLxR9/Btz9kVIIc/LNGMpRzRqfmQ8PmeesRn59OgAHeE3Hr/rWeqYdtAvFBbUasPZ/O0txkcjLzSOitD00JMCr2hkL9DADpa7tdDgLlhItBPzdfODnkA6smuiqLueVYdr1Zq14sXoEf7NHtB2MuToAjly8V5Q/npb7PtFS4miaa/bc0US4ny8kCBAbjTWBjeAxOvG4rGr7RjmuAWWpHEVxknhi9X1lutO/Qe5iyyGH7Ic6wHN6ZBwwQu6B3QksLw+ohuS3k/43mVCpoWEh31j2BR72ZsPw4lMAN3UJ12hEW5CFcpyvG1Dv9g0KHka8eZ3NiY7HEzMR/yIVi7YLCnxkLg5E8/1mZ+4y+ZTQ/FpaXMLKG/b9wiGUHT5NERGO4ysRY='
+    ]
+
+    india = [
+            app_id: 'mBUwlgPFryVjIBMxgAww',
+            app_token: '8WSgE6v08Bz6Kw-DSgdAww',
+            app_license_key: 'GJEz30DJBdxVRf6upK2NEMsvipFdqp/suaxpTWlLVL2pdFwDhA0rBfbZUoOJJJENfcT+Qk39Ng1YKlalq2W9VPXDlrktd/n0QpVyLJ54aBXjOB1Rd6+JmSzy2wiZYZJsy/LOmPKiXj/l7B0QjpIbC5f4X50i0yJadSNqCCGKXsFad3BvWHz4wfxrkEiIXtsMTAka0oZd+QyWbRomufdSQq7EC6sGrN3PKU3Kgw73/LfJeP5oSFaV68YUwXKRFSOKF1zAyR42xgCFe8xQ+QQ45wC16QKPJ1Bh8iZhZxkd2gxXAVC2RdQ0SXBnoqL/DOfl2SsqVMfjZ4mZ8fkxCmYX0aTIsQq7EGcUNqZJ7drgi+9KMgnRGZCqZ68V9smu/pdIbCGxZG8OQ+SHik9sKNsnoVrKMO5utFr71lTNHgT+YGeaQk8DA2qdKxOGzZlxCZKfvncX1Gu1pH7kCAA+Xa2DEjc/1dYCJznfoTmWzfT1OuITXlRWOW2ZEh6xecv63x8n0OBTQQN1Kon2AE2y31wQ1BshuYX8XAbEAv04zl8t/qPx1TESNhSH4E2PnSMj0dg6v/P3zQoASgdqyl9QU4A64MAaLOQAgIp6httJnInaV3Z2ajDzyH1om3GgC9HYAdCrz3/s23dPIGW+VH/HsFsiBfW6z11ouKFieYG+tmW56TY='
+    ]
+}

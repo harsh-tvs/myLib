@@ -1,0 +1,93 @@
+[versions]
+androidGradlePlugin = "8.1.3"
+androidxAppCompat = "1.6.1"
+androidxEspresso = "3.5.1"
+androidxJunit = "1.1.5"
+annotation = "1.7.0"
+constraintlayout = "2.1.4"
+fragmentKtx = "1.5.1"
+gmap-navigation = "5.0.0"
+gmap-place = "2.5.0"
+hilt = "2.44"
+junit = "4.13.2"
+kotlin = "1.7.10"
+kotlinBom = "1.8.0"
+ktx = "1.10.0"
+legacy-support-v4 = "1.0.0"
+lifecycle-livedata-ktx = "2.3.1"
+lifecycle-viewmodel-ktx = "2.3.1"
+material = "1.9.0"
+navigation-fragment-ktx = "2.5.3"
+navigation-ui-ktx = "2.5.3"
+play-services-maps = "18.2.0"
+playServicesBasement = "18.2.0"
+timber = "4.7.1"
+retrofit = "2.4.0"
+room = "2.4.0-alpha03"
+recyclerview = "1.3.2"
+playServicesLocation = "21.2.0"
+google-gson = "2.10.1"
+apollographqlruntime = "3.7.3"
+apollographqlapi = "3.7.3"
+mappls-sdk = "8.0.9"
+mappls-directions = "1.0.2"
+mappls-navigation = "1.0.0"
+mappls-place = "2.0.1"
+mappls-feedback = "2.0.2"
+navigationCompose = "2.5.0"
+activity = "1.8.0"
+databindingRuntime = "7.1.2"
+
+
+[libraries]
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidxAppCompat" }
+androidx-espresso = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidxEspresso" }
+androidx-fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragmentKtx" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidxJunit" }
+androidx-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "ktx" }
+google-navigation = { module = "com.google.android.libraries.navigation:navigation", version.ref = "gmap-navigation" }
+google-place = { module = "com.google.android.libraries.places:places", version.ref = "gmap-place" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
+hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
+hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "hilt" }
+hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
+kotlin-bom = { group = "org.jetbrains.kotlin", name = "kotlin-bom", version.ref = "kotlinBom" }
+annotation = { group = "androidx.annotation", name = "annotation", version.ref = "annotation" }
+legacy-support-v4 = { group = "androidx.legacy", name = "legacy-support-v4", version.ref = "legacy-support-v4" }
+lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle-livedata-ktx" }
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle-viewmodel-ktx" }
+play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "play-services-maps" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation-fragment-ktx" }
+navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation-ui-ktx" }
+play-services-basement = { group = "com.google.android.gms", name = "play-services-basement", version.ref = "playServicesBasement" }
+timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
+#retrofit = { module ="com.squareup.retrofit2:retrofit", version.ref = "retrofit"}
+retrofit = { group ="com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit"}
+retrofit-converter = { group ="com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit"}
+#retrofit-converter = { module ="com.squareup.retrofit2:converter-gson", version.ref = "retrofit"}
+room = {module ="androidx.room:room-runtime", version.ref = "room"}
+room-compiler = {module ="androidx.room:room-compiler", version.ref = "room"}
+room-ktx = {module ="androidx.room:room-ktx", version.ref = "room"}
+androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
+google-gson = { module = "com.google.code.gson:gson", version.ref = "google-gson" }
+apollographqlruntime = { module = "com.apollographql.apollo3:apollo-runtime", version.ref = "apollographqlruntime" }
+apollographqlapi = { module = "com.apollographql.apollo3:apollo-api", version.ref = "apollographqlapi" }
+mappls-sdk = { module = "com.mappls.sdk:mappls-android-sdk", version.ref = "mappls-sdk" }
+mappls-directions = { module = "com.mappls.sdk:directions-plugin", version.ref = "mappls-directions" }
+mappls-navigation = { module = "com.mappls.sdk:navigation-camera", version.ref = "mappls-navigation" }
+mappls-place = { module = "com.mappls.sdk:place-widget", version.ref = "mappls-place" }
+mappls-feedback = { module = "com.mappls.sdk:feedback-ui", version.ref = "mappls-feedback" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-databinding-runtime = { group = "androidx.databinding", name = "databinding-runtime", version.ref = "databindingRuntime" }
+
+[plugins]
+android-application = { id = "com.android.application", version = "unspecified" }
+android-library = { id = "com.android.library", version = "unspecified" }
+hilt-gradle = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+connect-android-application = { id = "connect.android.application", version = "unspecified" }
