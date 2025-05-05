@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">TVS Connect</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">From the Square world,\nHello, %1$s!</string>
+
+    <!--Vehicle Status Tags-->
+    <string name="tag_vehicle_status_unlocked">Unlocked</string>
+    <string name="tag_vehicle_status_locked">Locked</string>
+    <string name="tag_vehicle_status_charging">Charging...</string>
+    <string name="tag_vehicle_status_charging_complete">Charging complete</string>
+    <string name="tag_vehicle_status_offline">Offline</string>
+    <string name="tag_vehicle_status_vehicle_offline">Vehicle Offline</string>
+    <string name="tag_subtext_error_no_network">No Network</string>
+    <string name="tag_vehicle_status_riding">On Ride</string>
+    <string name="tag_server_error">Server Error.Try Later</string>
+    <string name="http_error_400">HTTP 400 Bad Request</string>
+
+    <!--Errror Messages encountered while hitting Codp-->
+    <string name="tag_network_errorMsg">Network error: Failed to execute GraphQL http network request</string>
+
+    <!--Status Subtext Tags-->
+    <string name="tag_subtext_info_low_battery">Battery Running Low</string>
+    <string name="tag_subtext_info_charging_time_remaining">%dhrs %dmins remaining</string>
+    <string name="tag_subtext_info_charging_time_in_min_remaining">%dmins remaining</string>
+    <string name="tag_subtext_info_refresh_in_progress">Refreshing..</string>
+
+    <!--Home Screen-->
+    <string name="tag_stl">XTL</string>
+    <string name="tag_str">XTR</string>
+    <string name="tag_snc">XNC</string>
+    <string name="tag_km">km</string>
+
+    <!--TPMS Screen-->
+    <string name="tag_tire_pressure">Tire Pressure</string>
+    <string name="front_tire_idle_pressure">24 psi</string>
+    <string name="rear_tire_idle_pressure">32 psi</string>
+    <!-- Default tire pressure for rear and front-->
+    <string name="front_tire_pressure">25</string>
+    <string name="rear_tire_pressure">30</string>
+    <string name="legend_text_optimum">Optimum</string>
+    <string name="legend_text_caution">Caution</string>
+
+    <!--RemoteOperation Screen-->
+    <string name="tag_vehicle_controls">Vehicle Controls</string>
+
+    <!--SharedPreference-->
+    <string name="shared_pref_name">TVSMElectric</string>
+    <string name="last_sync_vehicle_details">LastSyncVehicleDetails</string>
+    <string name="codp_access_credentials">CodpAccessCredentials</string>
+    <string name="remote_operation_status">RemoteOperationStatus</string>
+
+    <!--Alert Dialog Title and Messages-->
+    <string name="title_watch_not_connected_to_mobile">Sign-in Failed</string>
+    <string name="msg_watch_not_connected_to_mobile">Please Connect to Mobile.</string>
+    <string name="title_watch_connected_to_mobile_app_not_installed">Sign-in Failed</string>
+    <string name="msg_watch_connected_to_mobile_app_not_installed">TVS App is not found on Mobile. Open app store in phone?</string>
+    <string name="title_watch_not_connected_to_mobile_user_not_signed">Sign-in Failed</string>
+    <string name="msg_watch_not_connected_to_mobile_user_not_signed">Login to the App.</string>
+    <string name="title_watch_not_connected_to_internet">No Network Connection</string>
+    <string name="msg_watch_not_connected_to_internet">Please Connect to internet.</string>
+    <string name="title_user_access_revoked">Access revoked</string>
+    <string name="msg_user_access_revoked">Access revoked</string>
+
+    <string name="title_api_error">API ERROR</string>
+    <string name="msg_api_error">Something went wrong.</string>
+
+    <string name="title_watch_not_connected_to_mobile_via_ble">Connect to your mobile</string>
+    <string name="msg_watch_not_connected_to_mobile_via_ble">Connect to your mobile</string>
+    <string name="title_vehicle_not_connected_to_mobile_via_ble">Connection failed!</string>
+    <string name="msg_vehicle_not_connected_to_mobile_via_ble">Pls make sure vehicle is connected to TVS Connect</string>
+    <string name="title_remote_action_failed">Remote action failed</string>
+    <string name="msg_remote_action_failed">Remote action failed</string>
+    <string name="btn_close">Close</string>
+    <string name="title_activity_sign_in_info">SignInInfo</string>
+    <string name="title_signing_in">Signing in..</string>
+    <string name="vehicle_is_not_compatible">Sorry, your account doesn\'t have a compatible vehicle for the TVS Connect Watch app</string>
+    <string name="title_vehicle_is_not_compatible">Vehicle Incompatibility!</string>
+    <string name="vehicle_is_not_found">No vehicle found. Onboard your Vehicle on the TVS Connect mob app to continue.</string>
+    <string name="title_vehicle_is_not_found">Login failed!</string>
+</resources>

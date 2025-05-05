@@ -6,10 +6,10 @@ import java.util.Properties
 
 plugins {
     id("com.android.library")
-    id("org.jetbrains.kotlin.android")
+    id ("org.jetbrains.kotlin.android")
     id("kotlin-kapt")
     id("dagger.hilt.android.plugin")
-    //id("com.apollographql.apollo3").version(Versions.wear_apollo_version)
+    id("com.apollographql.apollo3").version(Versions.wear_apollo_version)
     id("maven-publish")
 }
 
@@ -65,9 +65,6 @@ android {
         }
     }
 
-//    lintOptions {
-//        disable("InvalidPackage")
-//    }
 
     hilt {
         enableAggregatingTask = false
@@ -93,15 +90,34 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
-//    sourceSets {
-//        getByName("main") {
-//            java.srcDirs("src/main/java", "src/main/kotlin")
-//        }
-//    }
-//    // Needed to publish AAR
+
     publishing {
         singleVariant("devDebug") {
             withSourcesJar()
+        }
+    }
+
+    apollo {
+        service("TVSElectric") {
+            packageName.set("com.tvsm.iqubeindia.tvsElectric")
+            schemaFile.set(file("src/main/graphql/com/tvsm/iqubeindia/tvsElectric/schema.sdl"))
+            generateApolloMetadata.set(false)
+            sourceFolder.set("com/tvsm/iqubeindia/tvsElectric")
+
+            introspection {
+                endpointUrl.set(CommonUrl.P360_PRODUCTION_URL + "gapi")
+            }
+        }
+
+        service("TVSICE") {
+            packageName.set("com.tvsm.iqubeindia.tvsIce")
+            schemaFile.set(file("src/main/graphql/com/tvsm/iqubeindia/tvsIce/schema.sdl"))
+            generateApolloMetadata.set(false)
+            sourceFolder.set("com/tvsm/iqubeindia/tvsIce")
+
+            introspection {
+                endpointUrl.set(CommonUrl.P360_UAT_URL + "gapi")
+            }
         }
     }
 
@@ -193,8 +209,8 @@ afterEvaluate {
                 from(components["devDebug"]) // <-- This includes the .aar with compiled code
 
                 groupId = "com.tvsm"
-                artifactId = "mylibrary"
-                version = "1.2.4"
+                artifactId = "connect"
+                version = "1.2.5"
 
                // Source JAR
                 // Sources JAR with classifier "sources"

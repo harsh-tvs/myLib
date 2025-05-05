@@ -1,0 +1,20 @@
+package com.tvsm.iqubeindia.presentation.ui.utils
+
+enum class ErrorCode {
+    /*Error code while opening the app*/
+    WATCH_NOT_CONNECTED_TO_MOBILE,
+    WATCH_CONNECTED_TO_MOBILE_APP_NOT_INSTALLED,
+    WATCH_NOT_CONNECTED_TO_MOBILE_USER_NOT_SIGNED,
+    WATCH_NOT_CONNECTED_TO_INTERNET,
+    USER_ACCESS_REVOKED,
+    VEHICLE_NOT_COMPATIBLE,
+    NO_VEHICLE_FOUND,
+    /*Error code for Vehicle Information screen*/
+    WATCH_LOST_INTERNET_CONNECTION,
+    VEHICLE_LOST_INTERNET_CONNECTION,
+    API_ERROR,
+    /*Error code for Remote Access screen*/
+    WATCH_NOT_CONNECTED_TO_MOBILE_VIA_BLE,
+    VEHICLE_NOT_CONNECTED_TO_MOBILE_VIA_BLE,
+    REMOTE_ACTION_FAILED
+}

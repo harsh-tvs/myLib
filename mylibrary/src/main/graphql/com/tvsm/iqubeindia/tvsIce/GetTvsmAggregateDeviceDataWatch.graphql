@@ -1,0 +1,14 @@
+query GetTvsmAggregateDeviceDataWatch($vin: String!){
+
+  getTvsmAggregateDeviceDataWatch(vin: $vin) {
+    status
+    message
+    data {
+      distance_covered_today
+      avg_speed_today
+      total_duration_today
+      number_of_rides
+    }
+  }
+ }
+

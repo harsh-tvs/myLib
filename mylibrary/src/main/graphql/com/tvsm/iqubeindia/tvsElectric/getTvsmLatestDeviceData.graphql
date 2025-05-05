@@ -1,0 +1,66 @@
+query GetTvsmLatestDeviceData($vin: String!) {
+    getTvsmLatestDeviceData(vin: $vin) {
+        response {
+            userId
+            timestamp
+            unitid
+            odometer
+            vin
+            latitude
+            longitude
+            idlingStatus
+            haltStatus
+            isOverspeed
+            speed
+            extBatVol
+            heading
+            main_voltage
+            ignition
+            panic_button
+            immobilizer
+            datetime_pkt
+            soc
+            odometer_can
+            speed_can
+            isPrimaryBattery
+            charging_status
+            isNoGps
+            address
+            ignition_status
+            driving_mode
+            can_modified
+            time_to_charge_completion
+            incognito_mode
+            co2Saved
+            regen_status
+            regen_energy
+            ev_range {
+                dte_eco
+                dte_power
+                dte_street
+                Xtl
+                Xtr
+                Xnc
+            }
+            tyre_pressure {
+                front
+                rear
+            }
+            package_version
+            totalTripsToday
+            avgSpeedToday
+            totalDistanceToday
+            totalTimeTakenToday
+            trees_offset
+            is_sos
+            is_tow
+            is_crash
+            is_fall
+            regen_level
+            imeiNo
+            serviceProvider
+        }
+        status
+        statusMessage
+    }
+}

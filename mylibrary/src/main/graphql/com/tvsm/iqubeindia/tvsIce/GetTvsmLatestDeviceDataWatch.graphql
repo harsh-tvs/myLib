@@ -1,0 +1,25 @@
+query GetTvsmLatestDeviceDataWatch($vin: String!){
+    getTvsmLatestDeviceDataWatch(vin: $vin) {
+    status
+        message
+        data {
+          soc
+          ignition_status
+          driving_mode
+          charging_status
+          odometer
+          last_sync
+          dte_eco
+          dte_power
+          tpms_front
+          tpms_rear
+          carbon_emission_saved
+          speed
+          time_to_charge_completion
+          top_speed
+          fuel_level
+          battery
+        }
+  }
+ }
+

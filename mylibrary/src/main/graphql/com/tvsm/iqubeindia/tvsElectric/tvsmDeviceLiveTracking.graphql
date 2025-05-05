@@ -1,0 +1,8 @@
+subscription tvsmDeviceLiveTracking($vin:String!) {
+    tvsmDeviceLiveTracking(vin: $vin) {
+        speed
+        co2Saved
+        latitude
+        longitude
+    }
+}

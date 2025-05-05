@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#006837</color>
+  <color name="colorPrimaryDark">#004012</color>
+  <color name="colorAccent">#c75f00</color>
+  <color name="colorOnPrimary">#ffffff</color>
+  <color name="colorBlack">#000000</color>
+
+  <color name="ic_launcher_background">#FFFFFF</color>
+
+  <color name="colorGradientStart">#1A2B5F</color>
+  <color name="colorGradientEnd">#613D3F</color>
+
+  <color name="textColorEcoMode">#04DE71</color>
+  <color name="textColorStrMode">#0089FF</color>
+  <color name="textColorPwrMode">#FF9500</color>
+
+  <color name="tpmsLowPressure">#FF0000</color>
+  <color name="tpmsIdlePressureBg">#333333</color>
+  <color name="tpmsIdlePressure">#D1D1D1</color>
+
+  <color name="socNormalGradientColor1">#82D36B</color>
+  <color name="socNormalGradientColor2">#49AF2C</color>
+  <color name="socCriticalGradientColor1">#AF2C2C</color>
+  <color name="socCriticalGradientColor2">#D36B6B</color>
+  <color name="socValueCritical">#EB0000</color>
+
+  <color name="colorRemoteButtonSelected">#4D0070F0</color>
+  <color name="colorRemoteButtonBorder">#FAFAFA</color>
+  <color name="colorRemoteButtonDisabledBorder">#66FAFAFA</color>
+  <color name="colorRemoteButtonProgressBar">#0070F0</color>
+
+  <color name="alertButtonBackground">#333333</color>
+  <color name="progressColorForFuelLevel">#04DE71</color>
+  <color name="alertColorForFuelLevel">#FF0000</color>
+  <color name="progressBarBackgroundColor">#535353</color>
+</resources>

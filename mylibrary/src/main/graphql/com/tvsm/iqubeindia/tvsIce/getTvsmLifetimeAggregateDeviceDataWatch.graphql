@@ -1,0 +1,17 @@
+query GetTvsmLifetimeAggregateDeviceDataWatch($vin: String!){
+  getTvsmLifetimeAggregateDeviceDataWatch(vin: $vin) {
+      status
+      message
+      data {
+        top_speed
+        avg_speed
+        best_0_60
+        total_rides
+        total_distance
+        co2_saved
+        total_duration
+        last_ride_distance
+      }
+  }
+}
+
